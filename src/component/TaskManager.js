@@ -1,7 +1,8 @@
 import { useState } from 'react';
 /*
-
-
+One way to insure insure immutability is by using the spread syntax to copy content in current state (array or object) to 
+a new array or object. Doing so allows for useState to trigger a re-render, as the new iterable will have
+a different memory address, ensuring a change in state.
 */
 export function TaskManger() {
     const [tasks, setTasks] = useState([]);
