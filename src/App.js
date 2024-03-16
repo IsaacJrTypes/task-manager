@@ -1,11 +1,13 @@
 //import logo from './logo.svg';
 import './App.css';
-import { TaskManger } from './component/TaskManager';
+import UserProfile from './component/UserProfile';
+
 
 function App() {
+
   return (
     <div>
-      <TaskManger/>
+      <UserProfile />
     </div>
   );
 }
