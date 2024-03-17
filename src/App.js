@@ -1,13 +1,12 @@
 //import logo from './logo.svg';
 import './App.css';
-import UserProfile from './component/UserProfile';
-
+import UserProfileWithImmer from './component/UserProfileWithImmer.js'
 
 function App() {
 
   return (
     <div>
-      <UserProfile />
+      <UserProfileWithImmer/>
     </div>
   );
 }
