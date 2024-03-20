@@ -1,12 +1,12 @@
 //import logo from './logo.svg';
 import './App.css';
-import UserProfileWithImmer from './component/UserProfileWithImmer.js'
+import ShoppingListWithImmer from './component/ShoppingListWithImmer';
 
 function App() {
 
   return (
     <div>
-      <UserProfileWithImmer/>
+      <ShoppingListWithImmer />
     </div>
   );
 }
