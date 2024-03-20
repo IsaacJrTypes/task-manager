@@ -1,6 +1,12 @@
 import { useImmer } from 'use-immer';
 import { useState } from 'react';
 
+/**
+ * useImmer simplified adding,updating and removing items in my shopping list app. 
+ * Without using the utility library, I would have had to create new lists and update properties
+ * by creating new objects using the spread operator. The library reduced my development work flow. 
+ */
+
 export default function ShoppingListWithImmer() {
     // id, name, quantity, and a nested details object with properties like category and notes
     const [shoppingList, setShoppingList] = useImmer([]);
